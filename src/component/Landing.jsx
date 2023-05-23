@@ -12,6 +12,7 @@ function Landing() {
       opacity: 1,
       transition: {
         delay: 0.5,
+        duration: 3,
         ease: "easeInOut",
       },
     },
@@ -24,7 +25,8 @@ function Landing() {
     show: {
       opacity: 1,
       transition: {
-        delay: 7,
+        delay: 5,
+        duration: 3,
         ease: "easeInOut",
       },
     },
@@ -48,6 +50,19 @@ function Landing() {
     show: {
       opacity: 1,
       transition: {
+        ease: "easeInOut",
+      },
+    },
+  };
+  const imgContainer = {
+    hidden: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        delay: 6,
+        duration: 1,
         ease: "easeInOut",
       },
     },
@@ -113,9 +128,14 @@ function Landing() {
           </TagCloudBase>
         </div>
       </section>
-      <a className="fade">
-        <img src={arrow} />
-      </a>
+      <motion.a
+        className="fade"
+        variants={imgContainer}
+        initial="hidden"
+        animate="show"
+      >
+        <img src={arrow} alt="arrowImage" />
+      </motion.a>
     </div>
   );
 }
