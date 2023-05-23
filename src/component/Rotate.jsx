@@ -8,7 +8,7 @@ function Rotate() {
     <TagCloudBase
       options={(window) => ({
         radius: Math.min(300, window.innerWidth, window.innerHeight) / 2,
-        maxSpeed: "normal",
+        maxSpeed: "Fast",
       })}
       onClick={(tag) => alert(tag)}
       onClickOptions={{ passive: true }}

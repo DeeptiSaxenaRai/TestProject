@@ -1,0 +1,30 @@
+.container {
+  width: 65%;
+  margin: auto;
+  justify-content: center;
+  border-color: rgb(3, 47, 47);
+}
+.section {
+  width: 100%;
+  display: flex;
+}
+.left {
+  width: 50%;
+  justify-content: center;
+}
+.right {
+  width: 50%;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .section {
+    display: block;
+  }
+  .left {
+    width: 90%;
+  }
+  .right {
+    width: 90%;
+  }
+}

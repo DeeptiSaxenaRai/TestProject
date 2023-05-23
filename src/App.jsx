@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Landing />
-      <Rotate />
+      {/* <Rotate /> */}
     </div>
   );
 }
