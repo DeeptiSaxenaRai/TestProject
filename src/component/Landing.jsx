@@ -63,7 +63,6 @@ function Landing() {
       transition: {
         delay: 6,
         duration: 1,
-        ease: "easeInOut",
       },
     },
   };

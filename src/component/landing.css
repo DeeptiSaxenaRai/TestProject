@@ -1,5 +1,6 @@
 .container {
   width: 65%;
+  height: 100vh;
   margin: auto;
   justify-content: center;
   border-color: rgb(3, 47, 47);
