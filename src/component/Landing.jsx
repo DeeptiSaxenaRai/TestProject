@@ -1,7 +1,7 @@
 import "./landing.css";
 import { TagCloud as TagCloudBase } from "@frank-mayer/react-tag-cloud";
 import { motion } from "framer-motion";
-import arrow from "../assets/react.svg";
+// import arrow from "../assets/react.svg";
 
 function Landing() {
   const introContainer = {
@@ -133,7 +133,7 @@ function Landing() {
         initial="hidden"
         animate="show"
       >
-        <img src={arrow} alt="arrowImage" />
+        {/* <img src={arrow} alt="arrowImage" /> */}
       </motion.a>
     </div>
   );

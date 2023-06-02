@@ -1,0 +1,67 @@
+/* .main {
+  width: 85%;
+  /* height: 100vh; */
+/* margin: auto; */
+/* padding: 100px 0; */
+/* border-radius: 10px;
+  box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
+} */
+/* .main h1 {
+  font-size: 3rem;
+  text-align: center;
+} */
+
+/* img {
+  width: 300px;
+  height: 300px;
+}
+.mySwiper {
+  margin: 0;
+  padding: 0;
+} */
+
+.Container {
+  /* max-width: 124rem; */
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.Heading {
+  padding: 1rem;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.swiper_container {
+  height: 200px;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+.projectImage {
+  width: 200px;
+  height: 200px;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+
+.slider-controler {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-3d {
+  perspective: 10px;
+}
+.swiper-slide {
+  width: 10%;
+}
