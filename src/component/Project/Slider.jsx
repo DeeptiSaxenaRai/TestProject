@@ -20,11 +20,11 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper";
 // import "swiper/css/pagination";
 // import "swiper/css/scrollbar";
 
-import Pokemon from "../../assets/Pokemon.jpg";
-import Parallex from "../../assets/Parallex.png";
-import HTML from "../../assets/HTML.png";
+import Pokemon from "../../assets/pokemon.png";
+import Parallex from "../../assets/parallex.png";
+import HTML from "../../assets/animation.png";
 import Design from "../../assets/design.png";
-import Wish from "../../assets/wish-list.png";
+import Wish from "../../assets/Jule-assingment.png";
 
 function Slider() {
   return (

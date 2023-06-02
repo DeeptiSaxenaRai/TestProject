@@ -1,5 +1,5 @@
 import "./cardStyle.css";
-import Parallex from "../../assets/Parallex.png";
+import Parallex from "../../assets/parallex.png";
 function ParellexCard() {
   return (
     <div className="CardContainer">

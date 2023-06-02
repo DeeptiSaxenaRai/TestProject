@@ -1,5 +1,5 @@
 import "./cardStyle.css";
-import Pokemon from "../../assets/pokemon.jpg";
+import Pokemon from "../../assets/pokemon.png";
 function PokemonCard() {
   return (
     <div className="CardContainer">
