@@ -1,5 +1,5 @@
 import "./cardStyle.css";
-import Wish from "../../assets/wish-list.png";
+import Wish from "../../assets/Jule-assingment.png";
 function ChristmasCard() {
   return (
     <div className="CardContainer">

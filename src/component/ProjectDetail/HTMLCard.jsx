@@ -1,5 +1,5 @@
 import "./cardStyle.css";
-import HTML from "../../assets/HTML.png";
+import HTML from "../../assets/animation.png";
 function HTMLCard() {
   return (
     <div className="CardContainer">
