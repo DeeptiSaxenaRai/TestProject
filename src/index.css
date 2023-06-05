@@ -16,7 +16,7 @@
   pointer-events: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 680px) {
   .center .slick-center .CardContainer {
     transform: scale(1);
   }
